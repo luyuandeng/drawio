@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T03:27:03.837Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="4ds4drlAidpStDkIFq4O" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T03:27:55.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="VdtImBzhDqRIoY7Qq5b0" version="14.4.3" type="github">
   <diagram id="kdde09D2nnx4coVuQpx-" name="第 1 页">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,9 +101,6 @@
         </mxCell>
         <mxCell id="geDU7SRH2CKQkBY8LNWq-64" value="用户管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="635" y="282" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="geDU7SRH2CKQkBY8LNWq-72" value="&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;aiOS是由k8s多节点集群提供运行环境；使用prometheus监控组件进行集群监控和告警等;使用ELK标准组件进行系统日志收集与处理；集成多种数据存储单元包括mysql\hdfs\minio\tidb\es等，封装提供数据接入与查询服务，根据接入数据类型将数据存储在合适的数据存储单元。&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;开发统一认证授权服务，对用户权限进行管理，包括用户登录认证，用户信息、角色信息与角色权限等信息进行管理，所有系统登录、用户权限信息都通过统一认证授权服务进行管理。对接运通LDAP&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;iTop工具，负责对接外部数据源，创建数据接入任务，集成kettle-web配置完成数据清洗任务、任务调度和监控数据接入任务执行情况等&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font size=&quot;3&quot;&gt;数据开放平台主包括数据开放门户和三大管理角色功能系统管理、数据管理、系统审计等&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
-          <mxGeometry x="50" y="690" width="830" height="190" as="geometry" />
         </mxCell>
         <mxCell id="geDU7SRH2CKQkBY8LNWq-75" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.57;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="HxBF0iYT7sKtN1toAZas-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
